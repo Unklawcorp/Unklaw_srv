@@ -1,0 +1,47 @@
+Оружие
+============================
+Пистолеты
+-USP-S
+-Glock 18
+-Tec-9
+-Makarov
+-Deagle Easert
+-Revolver
+Гранаты
+-Explosion Grenade
+-Smoke
+-Flashbang
+-Fire Grenade
+ПП
+-P90
+-UMP
+-UZI
+-PP-Bizon
+-
+Винтовки
+-SWD
+-Famas
+-Ak-47
+-M16
+-AUG
+-SCAR-20
+-AWD
+Тяжёлое вооружение
+-MiniGun
+Доп. Нычки
+-Hemlet
+-Armor
+-Defusing Fix Box
+-Zeus
+-Light
+РУ
+-Bazooka
+============================ 
+Техника
+============================
+Танки
+-
+БТР
+-
+АУ
+-
