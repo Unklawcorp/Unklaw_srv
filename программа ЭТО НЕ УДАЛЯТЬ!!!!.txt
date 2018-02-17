@@ -1,0 +1,35 @@
+//Scrolls legendary
+program ScrollsLegendary;
+Var
+ hp,money,stanima,tutorial,page:integer;
+ armor,weapon,amthulet,command:string;
+ chest: array [1..50] of string;
+ inventory: array [1..30] of string;
+begin
+ inventory[1]:='Пузырёк с маной (ёмкость 10 манны)';
+ inventory[2]:='Зелье берсерка (ёмкость 25 очков выносливости)';
+ armor:='одежда бедняка';
+ weapon:='ржавый медный нож';
+ amthulet:='ржавые нашейные кандалы';
+ writeln (' Ваш инвентарь:');
+ write ('сумка: ');
+ writeln (inventory);
+ write ('одежда: ');
+ writeln (armor);
+ write ('оружие: ');
+ writeln (weapon);
+ write ('амулет или ожерелье: ');
+ writeln (amthulet);
+ writeln ('хотите начать обучение? ');
+ write ('1-да 0-нет: ');
+ read (tutorial);
+while (tutorial>1)or(tutorial<0) do
+begin
+ writeln ('хотите начать обучение? ');
+ write ('1-да 0-нет: ');
+ read (tutorial);
+end;
+ if (tutorial:=1) then writeln ('учитель: здравствуйте, я ваш учитель в мире Beiond: Scrolls legends и я вас обучу основам игры Beiond: Scrolls Legends. Первым делом, перелистнём страницу, напиши: next page');
+ read (command);
+ while (tutorial:=1)and(page:=1) do
+end.
